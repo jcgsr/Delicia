@@ -71,6 +71,11 @@ export default {
           title: "Info",
           to: "/info",
         },
+        {
+          icon: "mdi-coin",
+          title: "Preços",
+          to: "/preco",
+        },
       ],
     };
   },

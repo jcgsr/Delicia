@@ -28,6 +28,13 @@
     "_name": "_4cde2039"
   },
   {
+    "name": "preco",
+    "path": "/preco",
+    "component": "/home/js/Coding/Projetos/2020/Delicia/pages/preco.vue",
+    "chunkName": "pages/preco",
+    "_name": "_652a1380"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/js/Coding/Projetos/2020/Delicia/pages/index.vue",

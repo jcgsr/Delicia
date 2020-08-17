@@ -7,6 +7,7 @@ const _77b3714a = () => interopDefault(import('../pages/aulas.vue' /* webpackChu
 const _3b7c9f66 = () => interopDefault(import('../pages/info.vue' /* webpackChunkName: "pages/info" */))
 const _5a3c91ea = () => interopDefault(import('../pages/inspire.vue' /* webpackChunkName: "pages/inspire" */))
 const _4cde2039 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
+const _652a1380 = () => interopDefault(import('../pages/preco.vue' /* webpackChunkName: "pages/preco" */))
 const _21ecf97a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -41,6 +42,10 @@ export const routerOptions = {
     path: "/portfolio",
     component: _4cde2039,
     name: "portfolio"
+  }, {
+    path: "/preco",
+    component: _652a1380,
+    name: "preco"
   }, {
     path: "/",
     component: _21ecf97a,

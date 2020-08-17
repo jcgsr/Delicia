@@ -46,7 +46,7 @@
       </div>
        <div class="box">
         <img
-          src="../assets/academia8.jpg"
+          src="../assets/academia9.jpg"
           alt="Corrida Foto"
           class="animate__animated animate__backInDown"
         />
@@ -55,6 +55,19 @@
         </div>
         <div class="text1">
           <p class="orange">Atendimento personalizado</p>
+        </div>
+      </div>
+       <div class="box">
+        <img
+          src="../assets/relogio.jpg"
+          alt="Corrida Foto"
+          class="animate__animated animate__backInDown"
+        />
+        <div class="text">
+          <p class="pink">HORÁRIO DA AULA</p>
+        </div>
+        <div class="text1">
+          <p class="orange">Na sua hora disponível</p>
         </div>
       </div>
     </v-flex>
@@ -79,7 +92,7 @@ export default {
   right: 0;
   text-align: center;
   top: 70%; /* Adjust this value to move the positioned div up and down */
-  background: rgba(223, 75, 75, 0.8);
+  /* background: rgba(223, 75, 75, 0.8); */
   color: #fff;
   width: 50%; /* Set the width of the positioned div */
 }
@@ -110,7 +123,23 @@ export default {
 }
 
 @media only screen and (max-width: 456px) {
-  
+ .box img{
+  width: 90%;
+ }
+
+  .box {
+    display: block;
+  }
+ .box .text {
+   top: 55%;
+   width: 80%;
+ }
+
+ .box .text1 {
+   top: 70%;
+   width: 70%;
+   font-size: .8rem;
+ }
  
 }
 </style>

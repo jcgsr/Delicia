@@ -12,7 +12,7 @@
 
 @media only screen and (max-width: 458px) {
   .v-main {
-    background-size: contain;
+    background-size: cover;
   }
 }
 

@@ -17,7 +17,7 @@
 
       <!-- <v-btn icon @click.stop="clipped = !clipped">
         <v-icon>mdi-application</v-icon>        
-      </v-btn> -->
+      </v-btn>-->
 
       <v-toolbar-title v-text="title" />
       <v-spacer />
@@ -30,14 +30,14 @@
     </v-main>
 
     <v-footer :absolute="!fixed" app>
-      <span>&copy; - Delícia Personal Trainer</span>
-      
+      <span>&copy;{{ new Date().getFullYear() }} - Delícia Personal Trainer</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-import Logo from '../components/Logo'
+import Logo from "../components/Logo";
+
 export default {
   components: { Logo },
   data() {
@@ -59,12 +59,17 @@ export default {
         {
           icon: "mdi-human-greeting",
           title: "Portfólio",
-          to: "/portfolio"
+          to: "/portfolio",
         },
         {
           icon: "mdi-human",
           title: "Aulas",
-          to: "/aulas"
+          to: "/aulas",
+        },
+        {
+          icon: "mdi-human-greeting",
+          title: "Info",
+          to: "/info",
         },
       ],
     };

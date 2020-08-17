@@ -3,7 +3,20 @@
      
     <v-flex class="text-center">
        <h2 class="display-2 mt-1 mb-4 pink--text">Meu Portfólio</h2>
-       
+       <div class="card">
+         <v-card class="d-inline-block mx-auto">
+           <v-card-text>Fat Loos</v-card-text>
+         </v-card>
+         <v-card class="d-inline-block mx-auto">
+           <v-card-text>Treinamento</v-card-text>
+         </v-card>
+         <v-card class="d-inline-block mx-auto">
+           <v-card-text>Yoga</v-card-text>
+         </v-card>
+         <v-card class="d-inline-block mx-auto">
+           <v-card-text>Balé</v-card-text>
+         </v-card>
+       </div>
       <img
         src="../assets/academia3.jpg"
         alt="Academia Foto"

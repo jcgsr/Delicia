@@ -7,6 +7,13 @@
     "_name": "_77b3714a"
   },
   {
+    "name": "info",
+    "path": "/info",
+    "component": "/home/js/Coding/Projetos/2020/Delicia/pages/info.vue",
+    "chunkName": "pages/info",
+    "_name": "_3b7c9f66"
+  },
+  {
     "name": "inspire",
     "path": "/inspire",
     "component": "/home/js/Coding/Projetos/2020/Delicia/pages/inspire.vue",

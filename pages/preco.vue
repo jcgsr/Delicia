@@ -3,7 +3,7 @@
     <h2 class="display-2">Planos e Preços</h2>
     <p class="mt-3 mb-5">Cansado de tantas coisas? Vários preços e planos? Por que não simplicar? Então, dê uma olhada nos meus preços e planos.</p>
     <v-card class="card d-inline-block mx-auto mb-4">
-      <v-card-title class="font-weight-medium orange--text display-3">R$449,99 <span class="text-lg-subtitle-2 ml-1">MENSAL</span></v-card-title>
+      <v-card-title class="ttitle font-weight-medium orange--text ">R$269,99 <span class="span text-lg-subtitle-2 ml-1">MENSAL</span></v-card-title>
      
       <v-card-subtitle class="font-weight-medium blue--text text-lg-h5">DELÍCIA (STANDARD)</v-card-subtitle>
       <v-card-text>
@@ -19,7 +19,7 @@
       </v-card-text>
     </v-card>
     <v-card class="card d-inline-block mx-auto mb-4">
-      <v-card-title class="font-weight-medium orange--text display-3 ">R$749,99 <span class="text-lg-subtitle-2 ml-1">MENSAL</span></v-card-title>
+      <v-card-title class="ttitle font-weight-medium orange--text">R$433,99 <span class="span text-lg-subtitle-2 ml-1">MENSAL</span></v-card-title>
      
       <v-card-subtitle class="font-weight-medium blue--text text-lg-h5">DELÍCIA (INTENSE)</v-card-subtitle>
       <v-card-text>
@@ -35,7 +35,7 @@
       </v-card-text>
     </v-card>
     <v-card class="card d-inline-block mx-auto mb-4">
-      <v-card-title class="font-weight-medium orange--text display-3">R$1.119,99 <span class="text-lg-subtitle-2 ml-1">MENSAL</span></v-card-title>
+      <v-card-title class="ttitle font-weight-medium orange--text">R$649.99 <span class="span text-lg-subtitle-2 ml-1">MENSAL</span></v-card-title>
      
       <v-card-subtitle class="font-weight-medium blue--text text-lg-h5">DELÍCIA (ULTRA)</v-card-subtitle>
       <v-card-text>
@@ -94,9 +94,23 @@ export default {
   font-size: 0.7rem;
 }
 
+ .card .ttitle {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+   }
+
 @media only screen and (max-width: 458px) {
    .card {
       width: 85%;      
+   }
+
+   .card .span {
+      font-size: 10px;
+   }
+
+   .card .ttitle {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
    }
 
 }

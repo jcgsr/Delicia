@@ -72,9 +72,24 @@ export default {
           to: "/info",
         },
         {
-          icon: "mdi-coin",
+          icon: "mdi-currency-usd",
           title: "Preços",
           to: "/preco",
+        },
+        {
+          icon: "mdi-timer",
+          title: "Horários",
+          to: "/horario",
+        },
+        {
+          icon: "mdi-format-quote-open",
+          title: "Depoimentos",
+          to: "/depoimento",
+        },
+        {
+          icon: "mdi-contacts",
+          title: "Contatos",
+          to: "/contato",
         },
       ],
     };

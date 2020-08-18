@@ -17,7 +17,7 @@
           class="lorem"
         >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo debitis delectus voluptatibus sunt sequi doloribus veritatis, non ducimus, ipsam, voluptatem quae ratione cumque. Voluptates minus tempora sed! Sint, incidunt.</p>
 
-        <v-btn color="info" class="pink--text mb-2" to="#price">Veja meus preços</v-btn>
+        <v-btn color="info" class="pink--text mb-2" to="/preco">Veja meus preços</v-btn>
       </div>
     </v-flex>
   </v-layout>

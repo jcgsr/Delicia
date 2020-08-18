@@ -80,7 +80,7 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style lang="scss">
 .box {
   position: relative;
   display: inline-block;

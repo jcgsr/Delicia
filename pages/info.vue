@@ -1,9 +1,9 @@
 <template>
   <div class="info">
-    <h2 class="display-2">SE NÃO FOR INDIVIDUAL, NÃO É POSSÍVEL!</h2>
+    <h2 class="display-2">SE NÃO FOR INDIVIDUAL, NÃO VALE!</h2>
     <h3 class="display-6 mt-4">
       Olá, visitante! Pra encurtar, eu sou Delícia (LGTBQ+) e sou um
-      <strong>Personal Trainer</strong> (PT) formado em Educação Física em 2009? na UFS com especialização no exterior (Riachuelo-SE) e Pós-Graduação na Bahia. Também sou professor de Ed. Física, de Sociologia, de Sociedade e Cultura, de Artes e Coach. Dê uma olhada no meu portfólio.
+      <strong>Personal Trainer</strong> (PT) formado em Educação Física em 2009? na UFS com especialização no exterior (Ryachuelo-SE) e Pós-Graduação na Bahia. Também sou professor de Ed. Física, de Sociologia, de Sociedade e Cultura, de Artes e Coach. Dê uma olhada no meu portfólio.
     </h3>
     <div class="dicas mt-8">
       <div class="dica">
@@ -49,12 +49,12 @@ export default {
 }
 
 .dicas {
-   display: flex;
+  display: flex;
 }
 
 .dica p {
-   max-width: 40%;
-   margin: 0 auto;
+  max-width: 40%;
+  margin: 0 auto;
 }
 
 .info {
@@ -66,9 +66,8 @@ export default {
 }
 
 @media only screen and (max-width: 458px) {
-   .dicas {
-      display: block;
-   }
+  .dicas {
+    display: block;
+  }
 }
-
 </style>

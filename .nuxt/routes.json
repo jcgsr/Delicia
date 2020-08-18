@@ -7,6 +7,27 @@
     "_name": "_77b3714a"
   },
   {
+    "name": "contato",
+    "path": "/contato",
+    "component": "/home/js/Coding/Projetos/2020/Delicia/pages/contato.vue",
+    "chunkName": "pages/contato",
+    "_name": "_60c2425b"
+  },
+  {
+    "name": "depoimento",
+    "path": "/depoimento",
+    "component": "/home/js/Coding/Projetos/2020/Delicia/pages/depoimento.vue",
+    "chunkName": "pages/depoimento",
+    "_name": "_612d4ba7"
+  },
+  {
+    "name": "horario",
+    "path": "/horario",
+    "component": "/home/js/Coding/Projetos/2020/Delicia/pages/horario.vue",
+    "chunkName": "pages/horario",
+    "_name": "_5519c813"
+  },
+  {
     "name": "info",
     "path": "/info",
     "component": "/home/js/Coding/Projetos/2020/Delicia/pages/info.vue",

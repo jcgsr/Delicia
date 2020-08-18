@@ -67,6 +67,7 @@ export default {
 .contatos {
   background-color: black;
   opacity: 0.9;
+  padding: 1rem;
 }
 
 .contatos v-icon {

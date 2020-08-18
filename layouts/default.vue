@@ -15,10 +15,6 @@
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
 
-      <!-- <v-btn icon @click.stop="clipped = !clipped">
-        <v-icon>mdi-application</v-icon>        
-      </v-btn>-->
-
       <v-toolbar-title v-text="title" />
       <v-spacer />
     </v-app-bar>
@@ -30,7 +26,19 @@
     </v-main>
 
     <v-footer :absolute="!fixed" app>
-      <span>&copy;{{ new Date().getFullYear() }} - Delícia Personal Trainer</span>
+      <div class="footer mt-4">
+        <p>
+          &copy;{{ new Date().getFullYear() }} -
+          <strong>Delícia</strong> Personal Trainer
+        </p>
+
+        <p class="creator">
+          Criado e Desenvolvido por
+          <a :href="link">
+            <v-btn class="jo">Jovane</v-btn>
+          </a>
+        </p>
+      </div>
     </v-footer>
   </v-app>
 </template>
@@ -42,6 +50,7 @@ export default {
   components: { Logo },
   data() {
     return {
+      link: "https://jcgsr.github.io/",
       clipped: false,
       drawer: false,
       fixed: false,
@@ -96,5 +105,20 @@ export default {
   },
 };
 </script>
+
+<style lang="css">
+.footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.creator .jo {
+  font-size: 0.8rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+</style>
 
 

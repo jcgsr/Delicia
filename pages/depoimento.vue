@@ -1,6 +1,6 @@
 <template>
   <div class="depoimento">
-    <h2 class="display-3 white--text darken-4">DEPOIMENTOS</h2>
+    <h2 class="white--text darken-4">DEPOIMENTOS</h2>
     <v-carousel cycle height="400" hide-delimiter-background show-arrows-on-hover>
       <v-carousel-item v-for="(slide, i) in slides" :key="i">
         <v-sheet :color="colors[i]" height="100%">
@@ -66,5 +66,12 @@ export default {
 .depoimento h2 {
   text-align: center;
   padding: 1rem;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 458px) {
+  .depoimento h2 {
+    font-size: 1.8rem;
+  }
 }
 </style>

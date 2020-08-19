@@ -2,7 +2,7 @@
   <v-layout>
     <v-flex class="text-center">
       <img src="../assets/academia.jpg" alt="Academia" class="mb-5 mt-3" />
-      <blockquote class="blockquote pink--text">
+      <blockquote class="blockquote white--text">
         &#8220;Primeiro, se exercitar. Depois, resolver os problemas.&#8221;
         <footer>
           <small>

@@ -67,6 +67,11 @@
 <script>
 export default {
   transition: "preco",
+  head() {
+    return {
+      titleTemplate: '%s - Preços'
+    }
+  }
 };
 </script>
 
